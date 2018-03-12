@@ -25,3 +25,7 @@ end
 def find_a(word)
   word.select {|x| x.start_with?("a")}
 end
+
+def sum_array(int)
+  int.sum
+end
