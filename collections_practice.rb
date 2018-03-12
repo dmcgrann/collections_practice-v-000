@@ -34,7 +34,7 @@ def add_s(word)
   word.each_with_index.collect do |e, i|
     if e == word[1]
       word[1]
-    else  
+    else
       e + "s"
   end
 end
