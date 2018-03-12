@@ -31,5 +31,5 @@ def sum_array(int)
 end
 
 def add_s(word)
-  word.each_with_index.collect {|e, i| e + "s", !word[1]}
+  word.each_with_index.collect {|e, i| e + "s" unless word[1]}
 end
