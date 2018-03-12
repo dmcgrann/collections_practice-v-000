@@ -23,5 +23,5 @@ def kesha_maker(name)
 end
 
 def find_a(word)
-  word.each{|x| include(x[0] = "a")}
+  word.index{|x| x[0] = "a"}
 end
