@@ -21,3 +21,7 @@ end
 def kesha_maker(name)
   name.each{|w| w[2] = "$"}
 end
+
+def find_a(word)
+  word.any?{|x| x.include?(a)}
+end
