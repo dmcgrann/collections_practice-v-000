@@ -23,5 +23,5 @@ def kesha_maker(name)
 end
 
 def find_a(word)
-  word.any?{|x| x.select("a")}
+  word.select{|x| x.include?("a")}
 end
