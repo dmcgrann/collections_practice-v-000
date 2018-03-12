@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(name)
-  name.each {|w| w.sub("","","$").join(", ")}
+  name.each{|w| w[2] = "$"}
 end
