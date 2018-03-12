@@ -7,6 +7,6 @@ def sort_array_desc(int)
 end
 
 def array_char_count(char)
-  array = char.split
-  array.sort
+  array = char.split("")
+  array.sort.join(", ")
 end
