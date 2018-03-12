@@ -23,5 +23,5 @@ def kesha_maker(name)
 end
 
 def find_a(word)
-  word.collect{|x| x[0] = "a"}
+  word.find{|x| x[0] = "a"}
 end
