@@ -23,5 +23,10 @@ def kesha_maker(name)
 end
 
 def find_a(word)
-  word.select{|x| include(x[0] = "a")}
+  word.each do |x| 
+    if include(x[0] = "a")
+      word
+    else
+    end
+  end
 end
