@@ -17,3 +17,7 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(name)
+  name.each {|w| w.sub("","","$").join(", ")}
+end
