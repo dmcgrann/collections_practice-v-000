@@ -32,5 +32,5 @@ end
 
 def add_s(word)
   word[1].slice
-  word.each_with_index.collect do |e, i| {e + "s"}
+  word.each_with_index.collect{|e, i| {e + "s"}
 end
