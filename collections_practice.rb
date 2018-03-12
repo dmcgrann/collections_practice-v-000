@@ -27,5 +27,5 @@ def find_a(word)
 end
 
 def sum_array(int)
-  int.sum
+  int.sum(0.0){|i| i+i}
 end
