@@ -23,5 +23,5 @@ def kesha_maker(name)
 end
 
 def find_a(word)
-  word.each_chars.first {|x| x = "a"}
+  word.select {|x| x.start_with(a)}
 end
